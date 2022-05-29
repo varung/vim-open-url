@@ -1,10 +1,11 @@
-let g:open_url#engines#default = 'duckduckgo'
+let g:open_url#engines#default = 'localhost'
 
 let s:engines = {
       \ 'google': 'https://www.google.com/search?q=%s',
       \ 'duckduckgo': 'https://duckduckgo.com/?q=%s',
       \ 'wikipedia': 'https://en.wikipedia.org/wiki/Special:Search?search=%s',
       \ 'so': 'https://stackoverflow.com/search?q=%s',
+      \ 'localhost': 'https://localhost:5000/code.html?q=%s',
       \}
 
 function! s:JoinTerms(terms) abort
