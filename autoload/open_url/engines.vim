@@ -1,4 +1,4 @@
-let g:open_url#engines#default = 'localhost'
+let g:open_url#engines#default = 'varoon'
 
 let s:engines = {
       \ 'google': 'https://www.google.com/search?q=%s',
