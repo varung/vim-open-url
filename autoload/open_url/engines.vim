@@ -5,7 +5,8 @@ let s:engines = {
       \ 'duckduckgo': 'https://duckduckgo.com/?q=%s',
       \ 'wikipedia': 'https://en.wikipedia.org/wiki/Special:Search?search=%s',
       \ 'so': 'https://stackoverflow.com/search?q=%s',
-      \ 'localhost': 'http://localhost:5000/code.html?q=%s',
+      \ 'localhost': 'http://localhost:5000/codesearch?q=%s',
+      \ 'varoon': 'https://go.varoon.com/codesearch?q=%s'
       \}
 
 function! s:JoinTerms(terms) abort
